@@ -1,3 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Django
+*.sqlite3
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv*/  # handles names like venv_django
+vir_*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MyPy, Pylint, Pytest, Coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Node modules (if using JS frontend in the same project)
+node_modules/
+
+# GitHub Codespaces / Remote Containers
+.devcontainer/
+
+
 __pycache__/
 *.py[cod]
 db.sqlite3
